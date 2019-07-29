@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, ScrollView, Text } from 'react-native';
+import { View, ScrollView, Text,Animated } from 'react-native';
 import { Card } from 'react-native-elements';
 // import { DISHES } from '../shared/dishes';
 // import { PROMOTIONS } from '../shared/promotions';
