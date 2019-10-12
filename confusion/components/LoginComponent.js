@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { View, StyleSheet, Text, ScrollView, Image } from 'react-native';
 import { Input, CheckBox, Button, Icon } from 'react-native-elements';
-import { SecureStore, Camera, Permissions, ImagePicker, Asset, ImageManipulator } from 'expo';
+import { Camera, Permissions, ImagePicker, Asset, ImageManipulator } from 'expo';
 import { createBottomTabNavigator } from 'react-navigation';
 import { baseUrl } from '../shared/baseUrl';
+import * as SecureStore from 'expo-secure-store';
 
 class LoginTab extends Component {
 
